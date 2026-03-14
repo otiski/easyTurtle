@@ -1,5 +1,4 @@
 import easyturtle as et
 
-et.square("red", 100)
-et.circle("blue", 50)
+et.triangle("red", 200)
 et.done()
