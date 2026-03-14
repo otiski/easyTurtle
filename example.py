@@ -1,6 +1,20 @@
+#imports easyturtle
 import easyturtle as et
 
-et.circle("blue", 100)
-et.square("green", 80)
-et.triangle("red", 200)
+#sets background color
+et.bgcolor("black")
+
+#draws a square
+et.square("red", 100)
+
+#draws a circle
+et.circle("green", 90)
+
+#draws a triangle
+et.triangle("blue", 75)
+
+#draws a circle pattern
+et.patternCircle(200)
+
+#keeps the window open
 et.done()
