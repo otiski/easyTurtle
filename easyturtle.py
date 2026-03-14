@@ -1,2 +1,2 @@
-i = input("TEXT: ")
-print("Your text: " + str(i))
+def hello(text):
+    print(text)
