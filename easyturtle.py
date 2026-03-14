@@ -61,6 +61,9 @@ def patternCircle(num):
 
         h += 0.05
 
+def clear():
+    t.reset()
+    t.clear()
 
 def done():
     turtle.done()

@@ -16,5 +16,9 @@ et.triangle("blue", 75)
 #draws a circle pattern
 et.patternCircle(200)
 
+
+#clears and resets the screen
+et.clear()
+
 #keeps the window open
 et.done()
