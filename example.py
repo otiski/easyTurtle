@@ -4,6 +4,8 @@ import easyturtle as et
 #sets background color
 et.bgcolor("black")
 
+et.patternCircle(200)
+"""
 #draws a square
 et.square("red", 100)
 
@@ -22,3 +24,5 @@ et.clear()
 
 #keeps the window open
 et.done()
+
+"""

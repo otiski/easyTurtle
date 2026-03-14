@@ -60,6 +60,23 @@ def patternCircle(num):
 
 
         h += 0.05
+def colorChange(num):
+    h = 0.0
+    for i in range(num):
+            t.speed(0)
+
+            c = colorsys.hsv_to_rgb(h, 1, 1)
+
+            t.color(c)
+
+            t.begin_fill()
+
+            t.circle(100)
+
+            t.end_fill()
+
+            h += 0.05
+
 
 def clear():
     t.reset()
